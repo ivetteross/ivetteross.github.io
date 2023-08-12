@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384- GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <script defer src="./main.js"></script>
+    <title>Serendipsic</title>
+    <link rel="shortcut icon" href="./imagenes/favicon.png">
+</head>
+<body>
+    <header class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="col-md-2">
+                    <button onclick='mostrar("menu-hamburguesa")' class="btn btn-default" form="menu-hamburguesa";"><span id="boton-hamburguesa" style="font-size: xx-large;"> ☰ </span></button>
+                </div>
+                <div class="col-md-9">
+                    <div id="menu-hamburguesa" style="justify-content: center;">
+                    <nav>
+                        <ul style="list-style: none;">
+                        <li><a href="#inicio">INICIO</a></li>
+                        <li><a href="#sobremi">SOBRE MÍ</a></li>
+                        <li><a href="#carouselExampleControls">TIPS</a></li>
+                        <li><a href="#publicaciones">PUBLICACIONES</a></li>
+                        <li><a href="#descubre">DESCUBRE</a></li>
+                        <li><a href="https://www.facebook.com/profile.php?id=100095248537304">CONTÁCTAME</a></li>
+                        </ul>                    
+                    </nav>
+                    </div>
+                </div>                
+            </div>
+            <div class="col-md-3">
+                <div id="logotipo" class="container-fluid" style="flex-direction: row;">
+                <img src="./imagenes/favicon.png" alt="favicon">
+                <img src="./imagenes/serendipsic.jpg" alt="serendipsic">
+                </div>
+            </div> 
+        </div>
+    </header>
+
+    <div id="inicio" class="container-fluid">
+        <div class="row">
+            <div class="col-md-8">
+                <h1>¡Bienvenidos a SerendiPsic! 🌟</h1>
+                <p>SerendiPsic es un Sitio Web que explora el mundo de la psicología desde una perspectiva única, guiados por la serendipia. Ofrecen artículos, investigaciones y curiosidades que revelan tesoros inesperados de la mente humana. Invitan a los visitantes a desafiarse a sí mismos, aprender y crecer mientras descubren las complejidades de sus pensamientos y emociones. ¡Únete a esta aventura de autodescubrimiento y déjate sorprender! 🧠💡</p>
+            </div>
+            <div class="col-md-4">
+                <img src="./imagenes/logo sp.png" alt="logo sp">
+            </div>     
+         </div>
+    </div>
+
+    <div id="sobremi" class="container-fluid">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="./imagenes/cartoon.jpg" alt="cartoon">
+            </div>
+            <div class="col-md-9">
+                <H2>SOBRE MÍ</H2>
+                <p>¡Hola! Soy Ivette Rosas, el alma creativa detrás de SerendiPsic. Un apasionado estudiante de Psicología y Desarrollo Web que ha decidido fusionar ambas áreas en este fascinante rincón virtual.
+                    <br>La alegría es mi motor, siempre busco contagiar entusiasmo y positividad a través de mis proyectos. La autodidacta en mí no se cansa de aprender y experimentar nuevas ideas para enriquecer esta plataforma.
+                    <br> Me encanta explorar los misterios de la mente humana y compartir mis hallazgos contigo. Además, mi lado creativo siempre busca la manera de presentar el conocimiento de una forma atractiva y amena.
+                    <br> En SerendiPsic, quiero que te sientas inspirado/a, desafiado/a y sorprendido/a mientras recorremos juntos este emocionante camino de autodescubrimiento y crecimiento personal.
+                </p>
+            </div>
+        </div>
+    </div>
+    
+    <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <img src="./imagenes/carousel_1.jpg" class="d-block w-100" alt="carousel_1">
+          </div>
+          <div class="carousel-item active">
+            <img src="./imagenes/carousel_2.jpg" class="d-block w-100" alt="carousel_2">
+          </div>
+          <div class="carousel-item active">
+            <img src="./imagenes/carousel_3.jpg" class="d-block w-100" alt="carousel_3">
+          </div>
+          <div class="carousel-item active">
+            <img src="./imagenes/carousel_4.jpg" class="d-block w-100" alt="carousel_4">
+          </div>
+          <div class="carousel-item active">
+            <img src="./imagenes/carousel_5.jpg" class="d-block w-100" alt="carousel_5">
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+
+    <div id="publicaciones" class="container-fluid">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="noticia">
+                    <img src="./imagenes/pink egg.png" alt="pink eggs">
+                    <h1>Datos Curiosos sobre la Psicología:</h1>
+                    <div id="contenido">
+                        <p>La psicología, el arte de explorar la mente humana, nos revela asombrosos secretos que desafían nuestra percepción. ¿Sabías que las emociones son contagiosas? Estudios demuestran que la risa puede propagarse como un contagio amigable. Y aquí hay algo sorprendente: el estrés puede ser contagioso también, transmitiéndose entre personas debido a la empatía.</p>
+                            <br><p>Además, nuestros sueños pueden ofrecer vislumbres de nuestro subconsciente. En un estado de REM, nuestras mentes crean historias visuales, a menudo enigmáticas, que pueden revelar nuestros deseos y temores más profundos.</p>
+                            <br><p>Otro hecho intrigante es que nuestra memoria no siempre es fiable. La "falsa memoria" es un fenómeno sorprendente en el cual recordamos eventos que nunca ocurrieron. Nuestro cerebro, en su afán de completar información, a veces crea recuerdos erróneos.</p>
+                            <br><p>Estas curiosidades son solo la punta del iceberg en el fascinante mundo de la psicología. A medida que exploramos más, encontramos que la mente humana es un laberinto de maravillas y misterios que continúa sorprendiéndonos en cada esquina.</p>
+                    </div>
+                    <button onclick='mostrar("contenido")' class="btn btn-default" form="contenido">+</button>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="noticia">
+                    <img src="./imagenes/green egg.png" alt="green egg">
+                    <h1>Consejos para el Bienestar Mental:</h1>
+                    <div id="contenido2">
+                        <p>Aquí tienes algunos consejos para cuidar y mantener en equilibrio tu bienestar mental:</p>
+                            <ol><li>Autocuidado regular: Dedica tiempo a actividades que te relajen y hagan sentir bien, como meditar, pasear o tomar baños relajantes.</li>
+                            <li>Rutinas saludables: Estructura tu día con tiempo para el sueño, actividad física y una alimentación equilibrada.</li>
+                            <li>Conexiones positivas: Mantén relaciones significativas con amigos y familiares para recibir apoyo en momentos de estrés.</li>
+                            <li>Mindfulness: Practica la atención plena para reducir el estrés y mejorar tu manejo de situaciones difíciles.</li>
+                            <li>Establece límites: Aprende a decir no y respeta tus necesidades para cuidar tu bienestar.</li>
+                            <li>Actitud positiva: Cultiva el optimismo, desafía pensamientos negativos y busca lo positivo en cada situación.</li>
+                            <li>Ayuda profesional: Si necesitas más apoyo, busca la orientación de un profesional de salud mental.</li>
+                            <li>Practica la gratitud: Reflexiona sobre lo que te hace sentir agradecido, mejorando tu estado de ánimo.</li>
+                            <li>Desconéctate de pantallas: Establece límites en el uso de dispositivos electrónicos para conectarte contigo mismo y el entorno.</li>
+                            <li>Actividades placenteras: Dedica tiempo a hacer cosas que disfrutes para mantener un buen estado mental.</li></ol>
+                            <br><p>Recuerda que el bienestar mental es un proceso constante. Al incorporar estos consejos en tu vida diaria, podrás fortalecer tu mente con el tiempo.</p>
+                    </div>
+                    <button onclick='mostrar("contenido2")' class="btn btn-default" form="contenido2">+</button>
+                </div> 
+            </div>
+            <div class="col-md-4">
+                <div class="noticia">
+                    <img src="./imagenes/purple egg.png" alt="purple egg">
+                    <h1>Psicología en la Vida Cotidiana:</h1>
+                    <div id="contenido3">
+                        <p>La psicología, con su mirada profunda en la mente humana, se convierte en un faro guía en nuestra vida cotidiana. Nos revela las sutilezas detrás de nuestras emociones, decisiones y relaciones. A través de la psicología, llegamos a comprendernos mejor a nosotros mismos y a los demás, tejiendo conexiones más significativas.</p>
+                            <br><p>En momentos de desafío, la psicología nos brinda herramientas para enfrentar el estrés, la ansiedad y la incertidumbre con resiliencia. Nos muestra cómo los patrones de pensamiento afectan nuestro bienestar y cómo podemos transformarlos para un mayor equilibrio.</p>
+                            <br><p>La importancia de la psicología en la vida cotidiana radica en su capacidad para iluminar cada interacción, cada elección y cada emoción. Al incorporar su sabiduría, enriquecemos nuestra comprensión del mundo interno y externo, forjando un camino hacia una vida más consciente, conectada y plena.</p>
+                            <br><p>En la toma de decisiones, la psicología nos advierte sobre sesgos cognitivos y cómo explorar opciones con una mente abierta. En la comunicación, nos ayuda a sintonizar con las emociones detrás de las palabras, construyendo puentes en nuestras relaciones.</p>
+                    </div>
+                    <button onclick='mostrar("contenido3")' class="btn btn-default" form="contenido3">+</button>
+                </div>   
+            </div>     
+        </div>
+    </div>
+
+    <div id="descubre" class="container-fluid">
+        <div class="row">
+            <div class="col-md-7">
+                <div class="row">
+                    <div class="col-md-6">
+                        <h3>DESCUBRE MÁS</h3>
+                        <img src="./imagenes/three eggs.png" alt="three eggs">
+                    </div>
+                    <div class="col-md-6">
+                        <p>"Amplía tu conocimiento con una selección de recursos recomendados en psicología. Desde libros hasta videos, aquí encontrarás herramientas para enriquecer tu viaje de autodescubrimiento."</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-5">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/bbBzrkE0iY0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </div> 
+    </div>
+    
+    <footer class="container-fluid">
+        <p>Conocé nuestra Política de Privacidad | ©2023 Serendipsic México. Todos los derechos reservados.</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js" integrity="sha384- w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN" crossorigin="anonymous"></script>
+</body>
+</html>
